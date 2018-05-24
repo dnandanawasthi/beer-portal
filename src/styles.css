@@ -1,0 +1,40 @@
+.button {
+    background-color: #F5B7B1;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+div {
+    background-color: #ECF0F1;
+    display: inline-block;
+    align: center
+}
+
+h4 {
+    background-color: #D6EAF8;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+body {
+  background-color: #cccccc;
+  font-family: "Helvetica Neue Light", Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-image: url("beer.jpg");
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}

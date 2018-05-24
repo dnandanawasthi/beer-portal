@@ -1,0 +1,35 @@
+
+<div class="center">
+  <table class="table table-striped">
+    <thead>
+    <tr bgcolor="#85C1E9">
+      <th>Random Beer App</th>
+      <th>  <button (click)="generateRandomNumber()" class="button">Show Another Beer</button></th>
+    </tr>
+    </thead>
+  </table>
+</div>
+<br> <br> <br>
+<div class="center">
+  <table class="table table-striped">
+    <thead>
+    <tr bgcolor="#85C1E9">
+      <th>Id</th>
+      <th>Beer Name</th>
+      <th>Alcohol %</th>
+      <th>Brewery</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr bgcolor="#E5E7E9" *ngIf="beer" >
+      <td>{{beer.id}}</td>
+      <td>{{beer.beerName}}</td>
+      <td>{{beer.alcoholPercentage}}</td>
+      <td>{{beer.breweryLocation}}</td>
+      <td>{{beer.description}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
